@@ -1,5 +1,8 @@
 # SoS-ZCP
 
+ [![DOI](https://zenodo.org/badge/374856817.svg)](https://zenodo.org/badge/latestdoi/374856817)
+
+
 SoS-ZCP is an algorithm that uses the exact ray tracing to evaluate the transverse coma aberration of an optical system. Our algorithm applies the Newton-Raphson method  to calculate the value of tilt that minimizes the amount of coma produced by a secondary mirror that is lateral shifted . This code was developed to calculate the zero coma point for every one of the classical telescopes of the OAN-SPM at Sierra San Pedro Mártin (B.C., México), but is suitable to be used in non-classical telescopes, like those of the TAOS-II project which is in development at the OAN-SPM. The case of the TAOS-II is important because the classical solution for the calculation of the zero coma point does not take correcting aspherical surfaces into account. This program has been tested with Python 2.7 and the libraries numpy 1.8.0 rc1 and matplotlib 1.3.1.
 
 ## Features
